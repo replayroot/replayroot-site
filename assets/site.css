@@ -1,6 +1,7 @@
 :root{--bg:#0B0B0E;--panel:#15151B;--text:#F2F2F4;--muted:#A6A6B0;--red:#E0431F;--grad:linear-gradient(90deg,#B5122E,#FF8A00)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+img{max-width:100%;height:auto}
 a{color:#FF8A00}
 header,main,footer{max-width:860px;margin:0 auto;padding:24px 16px}
 header{display:flex;align-items:center;justify-content:space-between;gap:16px}
